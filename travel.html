@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Travel Destinations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #0078d7;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #004a99;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .country {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .country img {
+            width: 100%;
+            height: auto;
+        }
+
+        .info {
+            padding: 15px;
+        }
+
+        .info h2 {
+            color: #0078d7;
+        }
+
+        .info p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+
+        .info h3 {
+            margin: 15px 0 5px;
+            color: #333;
+        }
+
+        footer {
+            background-color: #004a99;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Explore the World's Best Travel Destinations</h1>
+    </header>
+
+    <nav>
+        <a href="#france">France</a>
+        <a href="#japan">Japan</a>
+        <a href="#italy">Italy</a>
+        <a href="#india">India</a>
+    </nav>
+
+    <section class="container">
+        <div class="country" id="france">
+            <img src="https://source.unsplash.com/400x300/?paris,eiffel" alt="France">
+            <div class="info">
+                <h2>France</h2>
+                <p>France offers iconic landmarks, rich culture, and world-class cuisine.</p>
+                <h3>Famous Places:</h3>
+                <p>Eiffel Tower, Louvre Museum, French Riviera.</p>
+                <h3>Culture:</h3>
+                <p>Known for art, fashion, and romantic vibes.</p>
+                <h3>Stay:</h3>
+                <p>Luxurious Parisian hotels, countryside châteaux.</p>
+                <h3>Food:</h3>
+                <p>Croissants, Baguettes, Coq au Vin, French wine.</p>
+            </div>
+        </div>
+
+        <div class="country" id="japan">
+            <img src="https://source.unsplash.com/400x300/?japan,kyoto" alt="Japan">
+            <div class="info">
+                <h2>Japan</h2>
+                <p>Japan is a land of ancient traditions, modern cities, and stunning natural beauty.</p>
+                <h3>Famous Places:</h3>
+                <p>Tokyo, Kyoto's Temples, Mount Fuji.</p>
+                <h3>Culture:</h3>
+                <p>Samurai heritage, tea ceremonies, cherry blossoms.</p>
+                <h3>Stay:</h3>
+                <p>Traditional Ryokan inns, capsule hotels.</p>
+                <h3>Food:</h3>
+                <p>Sushi, Ramen, Tempura, Matcha-flavored sweets.</p>
+            </div>
+        </div>
+
+        <div class="country" id="italy">
+            <img src="https://source.unsplash.com/400x300/?italy,rome" alt="Italy">
+            <div class="info">
+                <h2>Italy</h2>
+                <p>Italy is famous for its ancient ruins, art, and mouth-watering food.</p>
+                <h3>Famous Places:</h3>
+                <p>Colosseum, Venice canals, Amalfi Coast.</p>
+                <h3>Culture:</h3>
+                <p>Renaissance art, opera, vibrant festivals.</p>
+                <h3>Stay:</h3>
+                <p>Rustic villas, charming city apartments.</p>
+                <h3>Food:</h3>
+                <p>Pizza, Pasta, Gelato, Espresso.</p>
+            </div>
+        </div>
+
+        <div class="country" id="india">
+            <img src="https://source.unsplash.com/400x300/?india,agra" alt="India">
+            <div class="info">
+                <h2>India</h2>
+                <p>India is a diverse country with ancient heritage, spiritual landmarks, and vibrant festivals.</p>
+                <h3>Famous Places:</h3>
+                <p>Taj Mahal, Jaipur's palaces, Kerala backwaters.</p>
+                <h3>Culture:</h3>
+                <p>Yoga, Bollywood, traditional dances, colorful festivals.</p>
+                <h3>Stay:</h3>
+                <p>Heritage hotels, budget-friendly stays, beach resorts.</p>
+                <h3>Food:</h3>
+                <p>Biryani, Masala Dosa, Butter Chicken, Chai.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 World Travel Destinations. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
