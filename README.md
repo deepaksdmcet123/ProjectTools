@@ -1,1 +1,3 @@
-# this is my first project
+The purpose of the travel website ExploreVista is to inform users about stunning travel locations worldwide. With information on well-known tourist destinations, must-see sights, travel advice, and affordable itineraries, the website acts as a travel guide.
+
+ExploreVista offers something for everyone, whether you're an adventurer, a nature lover, or someone seeking a peaceful retreat. To assist users in organising the ideal vacation, the platform offers carefully chosen travel guides, breathtaking photo galleries, and tailored suggestions. The website seeks to inspire and make travel planning easier for all types of adventurers with its user-friendly navigation and interesting content.
