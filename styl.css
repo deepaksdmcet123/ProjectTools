@@ -1,0 +1,208 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #009688, #4caf50);
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+    color: #f1f1f1;
+}
+
+/* Main Content */
+main {
+    padding: 40px 20px;
+}
+
+.state-list h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.state-list ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px;
+    list-style-type: none;
+}
+
+.state-list ul li {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    text-align: center;
+}
+
+.state-list ul li:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.state-list ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #009688;
+    transition: color 0.3s ease;
+}
+
+.state-list ul li a:hover {
+    color: #4caf50;
+}
+
+/* State Details Page */
+.state-details {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.state-details h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.state-details p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+
+.state-details h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4caf50;
+}
+
+.state-details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.state-details ul li {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.state-details ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.state-details ul li h4 {
+    font-size: 1.8rem;
+    color: #009688;
+    margin-bottom: 10px;
+}
+
+.state-details ul li p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.state-details ul li img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .state-list ul {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .state-details ul li {
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .state-details h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .state-list ul {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .state-list ul li a {
+        font-size: 1rem;
+    }
+
+    .state-details ul li h4 {
+        font-size: 1.5rem;
+    }
+}
